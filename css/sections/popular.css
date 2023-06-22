@@ -20,10 +20,9 @@
   line-height: 78px;
   color: #fff;
   text-align: center;
-
 }
 
-.popular-foods__filter {
+.popular-foods__filters {
   margin-top: 48px;
   max-width: 100%;
   overflow-x: auto;
@@ -31,7 +30,6 @@
   display: flex;
   justify-content: center;
   gap: 24px;
-
 }
 
 .popular-foods__filter-btn {
@@ -41,15 +39,15 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 46px;
 
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300px;
   line-height: 25px;
   font-family: var(--plus-jakarta-sans);
-
   color: #fff;
   cursor: pointer;
 }
@@ -61,17 +59,18 @@
 }
 
 .popular-foods__filter-btn.active {
-  background-color: #fff;
-  color: var(--primary-color);
+  background: #fff;
+  color: var(--primary-color)
 }
 
 .popular-foods__filter-btn:hover {
-  background-color: #fff;
-  color: var(--primary-color);
+  background: #fff;
+  color: var(--primary-color)
 }
 
 .popular-foods__catalogue {
   margin-top: 64px;
+
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -81,9 +80,10 @@
 
 .popular-foods__button {
   width: fit-content;
-  padding: 20px 30px;
 
+  padding: 20px 30px;
   margin: 80px auto 0;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
@@ -116,21 +116,20 @@
 
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .popular-foods__card-image {
   width: 110px;
   height: 84px;
   object-fit: contain;
-
 }
 
 .popular-foods__card-title {
   margin-top: 47px;
+
   font-weight: 600;
   font-size: 24px;
-
   line-height: 32px;
   font-family: var(--playfair-display);
   color: #fff;
@@ -140,20 +139,17 @@
 .popular-foods__card-details {
   width: 100%;
   margin-top: 32px;
-
 }
 
 .popular-foods__card-rating {
   display: flex;
   align-items: center;
   gap: 8px;
-
 }
 
 .popular-foods__card-rating img {
   width: 24px;
   height: 24px;
-
   object-fit: contain;
 }
 
@@ -198,5 +194,5 @@
 
 .popular-foods__card.active-card .popular-foods__card-price {
   font-size: 24px;
-  color: var(--secondary-color);
+  color: var(--secondary-color)
 }
